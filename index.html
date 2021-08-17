@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <!--  added  -->
+  <link rel="icon" type="img/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <!--  added  -->
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/main.css">
+<!--  <link rel="stylesheet" href="css/bulma.css">-->
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="container">
+  <!-- Add your site or application content here -->
+    <main>
+      <img src="/img/illustration-hero.svg" class="main_image">
+      <header>
+       <h1 class="main_title"> Order Summary </h1>
+      </header>
+      <article>
+        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+      </article>
+      <div class="pay-info-box container">
+        <div class="pay-info">
+          <img src="img/icon-music.svg" id="music-icon">
+          <div id="pricetags">
+            <p id="plan">Annual Plan</p>
+            <p id="price">$59.99/year</p>
+          </div>
+        </div>
+          <a id="change" href="#">Change</a>
+      </div>
+      <div class="btns">
+        <button class="buttons" id="proceed">Proceed to Payment</button>
+        <button class="buttons" id="cancel">Cancel Order</button>
+      </div>
+      <aside class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </aside>
+    </main>
+  </div>
+
+
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
+
